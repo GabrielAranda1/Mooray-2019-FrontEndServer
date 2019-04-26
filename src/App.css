@@ -1,0 +1,132 @@
+.navbar {
+  background-color: #003fa5 !important
+}
+.landing {
+  position: relative;
+  background: url('https://boygeniusreport.files.wordpress.com/2016/03/movies-tiles.jpg?quality=98&strip=all') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    background-color: orange;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-size {
+  width: 130px;
+  height: 195px;
+  display: inline-block;
+}
+
+.img-movie {
+  width: 260px;
+  height: 390px;
+  display: flex;
+}
+
+.catalog {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  vertical-align: center;
+}
+
+body {
+  background-color: #303030;
+  font-family: 'Dosis'
+}
+
+font {
+  color: #ffffff !important
+}
+
+.card-mooray {
+  background-color: #0f0f0f;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.bio {
+  white-space: pre-line !important;
+}
+
+.btn-sq-sm {
+  width: 50px !important;
+  height: 50px !important;
+  font-size: 20px !important;
+}
+
+.btn-h50 {
+  height: 50px;
+}
+
+.btn-rate {
+  border-radius: 50%;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  text-align: center;
+}
