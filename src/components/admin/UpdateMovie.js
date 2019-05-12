@@ -59,7 +59,6 @@ class UpdateMovie extends Component {
             character_name: this.state.character_name,
         }
 
-        console.log(updateMovie)
         axios.post('/api/movies/' + this.state.movie_id, updateMovie)
             .then(res => {
                 if (res.status !== 400) {

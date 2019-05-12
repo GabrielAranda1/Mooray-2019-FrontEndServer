@@ -62,7 +62,7 @@ class NewMovie extends Component {
                     <div className="row">
                         <div className="col-md-12 m-auto">
                             <h1 className="display-4 text-center text-white">New Movie</h1>
-                            <div className="card p-4 m-3">
+                            <div className="card-mooray p-4 m-3">
                                 <form onSubmit={this.onSubmit}>
                                     <div className="form-group">
                                         <input type="text"

@@ -9,7 +9,7 @@ class Catalog extends Component {
                 <div className="row">
                     <div className="col-xs-2">
                         <select className="form-control form-control-lg m-2" name="filter" id="filter">
-                            <option disabled selected>Filter</option>
+                            <option disabled defaultValue>Filter</option>
                             <option value="asc">Ascending Date</option>
                             <option value="desc">Descending Date</option>
                             <option value="a-z">A-Z</option>

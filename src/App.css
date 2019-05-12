@@ -71,6 +71,7 @@
     height: 100px;
     width: 100%;
     overflow: hidden;
+    vertical-align: bottom;
 }
 
 .img-size {
@@ -95,7 +96,8 @@
 
 body {
   background-color: #303030;
-  font-family: 'Dosis'
+  font-family: 'Dosis';
+  color: #ffffff;
 }
 
 font {
@@ -129,4 +131,132 @@ font {
   height: 50px;
   padding: 0px;
   text-align: center;
+}
+
+/* CSS Styles for Comments/Posts tab in MoviePage*/
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #00358c;
+  background-color: #003fa5;
+  display: flex;
+  justify-content: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #003fa5;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #022e77;
+}
+
+/* Create an active/current tablink class */
+.tab button:active {
+  background-color: #022e77 !important;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #00358c;
+  border-top: none;
+  background-color: #003fa5;
+}
+
+ul {
+  display: flex;
+  padding: 0px;
+}
+
+.tab-dark {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.tab-dark button {
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab-dark button:hover {
+  background-color: #303030;
+}
+
+.post-card {
+  background-color: #303030;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.post-card img {
+  height: 60px;
+}
+
+.post-card user-img {
+  border-radius: 50%;
+  border-image: 1px;
+}
+
+.btn-like {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.like:hover {
+  color: #bbb;
+}
+/* Posts */
+
+.post-user {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.post-text {
+  margin-top: 4px;
+  font-size: 20px;
+}
+
+.post-footer {
+  vertical-align: bottom;
+  font-size: 19px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.footer-item {
+  margin-left: 5px;
+}
+
+.loader {
+  justify-content: center; 
+  width: 40px;
+  align-content: center;
+  display: flex;
+}
+
+.btn-link {
+  color: white;
+}
+
+.btn-link:hover {
+  color: #bbb;
 }
