@@ -55,6 +55,10 @@ class AdminNavbar extends Component {
                             </li>
 
                             <li className="nav-item">
+                                <Link className="nav-link" name="reports" to="/admin/reports"> Reports</Link>
+                            </li>
+
+                            <li className="nav-item">
                                 <Link className="nav-link" name="performers" to="/admin/performer"> Performers</Link>
                             </li>
 

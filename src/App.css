@@ -260,3 +260,19 @@ ul {
 .btn-link:hover {
   color: #bbb;
 }
+
+.tb-head {
+  background-color: #003fa5 !important;
+  color: #ffffff;
+  
+}
+
+.nav-head {
+  color: #e6e9ef;
+  cursor: pointer;
+}
+
+.nav-head:hover {
+  color: #ffffff;
+  cursor: pointer;
+}

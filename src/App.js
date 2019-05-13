@@ -21,6 +21,8 @@ import Director from './components/admin/Director'
 import PublicCatalog from './components/public/Catalog'
 import NewList from './components/user/newList'
 import EditList from './components/user/editList'
+import Reports from './components/admin/Reports'
+import CheckReport from './components/admin/checkReport'
 
 import './App.css';
 
@@ -45,6 +47,8 @@ class App extends Component {
           <Route exact path="/admin/catalog/list" component={MovieList} />
           <Route exact path="/admin/catalog/movie=:movie_id" component={Movie} />
           <Route exact path="/admin/catalog/update/:movie_id" component={UpdateMovie} />
+          <Route exact path="/admin/reports" component={Reports} />
+          <Route exact path="/admin/reports/:type/:content_id" component={CheckReport} />
 
           {/*Public Routes */}
           <Route path="/public" component={UserNavbar} />

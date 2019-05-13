@@ -22,7 +22,6 @@ class Director extends Component {
 
         axios.get('/api/directors/' + director_id)
             .then(res => {
-                console.log(res)
                 this.setState({ 'director': res.data.director, 'movies': res.data.movies })
             })
     }
